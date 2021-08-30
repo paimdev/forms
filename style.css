@@ -45,37 +45,109 @@ table {
 /* start of the css */
 
 body {
-  background-color: rgb(240, 236, 236);
+  background-color: rgb(237, 240, 241);
 }
 
 nav {
   display: flex;
-  background-color: aqua;
   height: 40px;
-  padding: 5px 30px 0 970px;
+  padding: 5px 30px 20px 950px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 95, 129);
+}
+
+p {
+  padding: 5px;
+}
+
+input {
+  width: 330px;
+  height: 25px;
+  margin-bottom: 30px;
+  border-color: rgb(216, 215, 215);
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.create-account {
+  width: 340px;
+  height: 45px;
+  background-color: rgb(31, 140, 212);
+  color: white;
+  border-radius: 4px;
+}
+
+.button {
+  padding-bottom: 20px;
+}
+
+.nav-text {
+  padding-right: 5px;
+  font-size: 14px;
+  color: rgb(85, 85, 85);
+}
+
+.sign-in {
+  padding-left: 10px;
 }
 
 .signin-button {
   width: 95px;
   height: 35px;
-  background-color: rgb(104, 104, 243);
+  background-color: rgb(31, 140, 212);
   border-radius: 4px;
   color: white;
 }
 
 .form-container {
-  background-color: fuchsia;
+  background-color: white;
+  border-style: solid;
+  border-color:rgb(197, 197, 197);
+  border-width: 2px;
+  border-radius: 3px;
   margin: 0 auto;
   width: 400px;
-  height: 600px;
+}
+
+.content {
+  padding: 35px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.paragraph-info {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(119, 117, 117);
+}
+
+.captcha-container {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  font-size: 12px;
+}
+
+.captcha-info {
+  padding-top: 20px;
+}
+
+.links a {
+  color: black;
 }
 
 .legal {
-  background-color: gold;
-  height: 50px;
+  text-align: center;
 }
 
 footer {
- background-color: green;
+ background-color: rgb(255, 255, 255);
  height: 50px;
 }
