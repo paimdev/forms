@@ -52,7 +52,15 @@ nav {
   display: flex;
   background-color: aqua;
   height: 40px;
-  padding: 5px 30px 0 980px;
+  padding: 5px 30px 0 970px;
+}
+
+.signin-button {
+  width: 95px;
+  height: 35px;
+  background-color: rgb(104, 104, 243);
+  border-radius: 4px;
+  color: white;
 }
 
 .form-container {
